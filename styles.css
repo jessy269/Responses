@@ -1,0 +1,272 @@
+body {
+	font-family: arial;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.5em;
+	background: black;
+	color: yellow;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+
+nav {
+	position: fixed;
+	top: 0%;
+	left:0;
+	width: 100%;
+	padding: .3em;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav a {
+	margin:0.5em;
+	color:#282828;
+	text-decoration: none;
+	transition: color 0.25s;
+	z-index: 5em;
+}
+
+nav a:hover {
+	color:rgb(10, 213, 17);
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color:rgb(10, 213, 17);
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+	display: inline-flex;
+
+}
+
+figure {
+	position: absolute;
+	left: 35%;
+	top: 25%;
+}
+
+	
+.gross {
+	width: 1em;
+	height: auto;
+	filter: saturate(12%);
+	transition: all 10s;
+
+}
+
+
+.gross:hover {
+	width:500%;
+	height:500%;
+	filter: saturate(100%);
+
+}
+
+.box1 {
+	color:red;
+	font-size: 30px;
+	position: absolute;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box1:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: red;
+}
+
+.box2 {
+	color:rgb(254, 68, 1);
+	font-size: 30px;
+	position: absolute;
+	left:5%;
+	top:12%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box2:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(254, 68, 1);
+}
+
+.box3 {
+	color:rgb(254, 111, 1);
+	font-size: 30px;
+	position: absolute;
+	left:10%;
+	top:19%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box3:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(254, 111, 1);
+}
+.box4 {
+	color:rgb(254, 187, 1);
+	font-size: 30px;
+	position: absolute;
+	left:15%;
+	top:26%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box4:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(254, 187, 1);
+}
+
+.box5 {
+	color:rgb(229, 254, 1);
+	font-size: 30px;
+	position: absolute;
+	left:20%;
+	top:33%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box5:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(229, 254, 1);
+}
+.box6 {
+	color:rgb(94, 254, 1);
+	font-size: 30px;
+	position: absolute;
+	left:25%;
+	top:40%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box6:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(94, 254, 1);
+}
+.box8 {
+	color:rgb(1, 254, 229);
+	font-size: 30px;
+	position: absolute;
+	left:30%;
+	top:47%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box8:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(1, 254, 229);
+}
+.box9 {
+	color:rgb(1, 35, 254);
+	font-size: 30px;
+	position: absolute;
+	left:35%;
+	top:54%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box9:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(1, 35, 254);
+}
+.box10 {
+	color:rgb(136, 1, 254);
+	font-size: 30px;
+	position: absolute;
+	left:40%;
+	top:61%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box10:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(136, 1, 254);
+}
+.box11 {
+	color:rgb(254, 1, 220);
+	font-size: 30px;
+	position: absolute;
+	left:45%;
+	top:68%;
+	border: 5px solid white;
+	padding: 8px;
+}
+
+.box11:hover {
+	color: white;
+	transition: all .3s;
+	border: 8px dotted white;
+	background-color: rgb(254, 1, 220);
+}
+
+.goblin {
+	border-radius: 1em 1em 1em 1em;
+	height: auto;
+	width: 15em;
+	margin: 20px;
+    position: relative;
+    left: 5em;
+    transition: all .5s;
+}
+
+.goblin:hover {
+	width: 18em;
+	height: auto;
+}
+.goblin:active {
+	width: 25em;
+	height:auto;
+}
+
+p {
+	margin: 25px;
+	padding: 10px;
+	left: 5em;
+	position: sticky;
+}
+
+.red:hover{
+	color:red;
+	transition: all 1s;
+}
+
+
+span {
+  content: "\2197";
+ 
+}
+
+span {
+  content: "\2191";
+}
